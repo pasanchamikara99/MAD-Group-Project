@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">MAD Group Project</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="txtSignIn">Login To Your Account</string>
+    <string name="emailHint">Email Address</string>
+    <string name="hintPassword">Password</string>
+    <string name="loginBtnTxt">Login</string>
+    <string name="txtNoAccount">Dont Have An Account ?</string>
+    <string name="txtSignUp">Sign Up</string>
+    <string name="txtSignUpTitle">Sign Up For Free</string>
+    <string name="username">User Name</string>
+    <string name="phoneNo">Phone Number</string>
+    <string name="hintUserpassword">Password</string>
+    <string name="hintConfirmPassword">Confirm Password</string>
+    <string name="registerBtnText">Register</string>
+    <string name="txtHasAccount">Have an Account ? </string>
+    <string name="txtSignInLink">Sign In</string>
+    <string name="loginUserNamehint">User Name</string>
 </resources>
