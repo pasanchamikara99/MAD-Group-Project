@@ -72,8 +72,8 @@
 
         <Button
             android:id="@+id/btncategoryUpdate"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/categoryImage"
             android:layout_below="@+id/txtCategoryTitle"
             android:layout_marginLeft="10dp"
@@ -82,8 +82,9 @@
             android:textStyle="bold"/>
 
         <Button
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:id="@+id/btncategoryDelete"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/btncategoryUpdate"
             android:layout_below="@+id/txtCategoryTitle"
             android:layout_marginLeft="25dp"
