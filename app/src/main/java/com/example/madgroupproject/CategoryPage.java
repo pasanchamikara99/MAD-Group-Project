@@ -21,7 +21,7 @@ import java.util.ArrayList;
 
 public class CategoryPage extends AppCompatActivity {
 
-    Button navigateAddCategory;
+    Button navigateAddCategory,categoryDelete;
     RecyclerView recyclerView;
     ArrayList<Category> recycleList;
 
@@ -39,10 +39,6 @@ public class CategoryPage extends AppCompatActivity {
         navigateAddCategory = findViewById(R.id.btnAddCategory);
 
 
-
-
-
-
         recyclerView = findViewById(R.id.recyclerView);
         recycleList = new ArrayList<>();
         firebaseDatabase = FirebaseDatabase.getInstance();
@@ -55,7 +51,6 @@ public class CategoryPage extends AppCompatActivity {
         recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(),DividerItemDecoration.VERTICAL));
         recyclerView.setNestedScrollingEnabled(false);
         recyclerView.setAdapter(recycleAdapter);
-
 
         firebaseDatabase.getReference().child("Category").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
