@@ -14,7 +14,13 @@
         android:theme="@style/Theme.MADGroupProject"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".cart_thank_activity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderPage"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
