@@ -24,4 +24,8 @@
     <string name="txtHasAccount">Have an Account ? </string>
     <string name="txtSignInLink">Sign In</string>
     <string name="loginUserNamehint">User Name</string>
+    <string name="addCategoryBtn">Add Category</string>
+    <string name="addCategoryBtnText">Add</string>
+    <string name="addCategoryIDhint">Category ID </string>
+    <string name="addCategoryTitleHint">Category Title</string>
 </resources>

@@ -14,6 +14,13 @@
         android:theme="@style/Theme.MADGroupProject"
         tools:targetApi="31">
         <activity
+            android:name=".addCategoryPage"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CategoryPage"
             android:exported="false">
             <meta-data
