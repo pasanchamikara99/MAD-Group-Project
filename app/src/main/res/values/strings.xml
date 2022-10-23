@@ -30,4 +30,9 @@
     <string name="addCategoryTitleHint">Category Title</string>
     <string name="alertDialogTitle">Are You sure ? </string>
     <string name="alertDialogMessage">Deleted Data cant be undo</string>
+    <string name="invalid_name">Please enter valid name</string>
+    <string name="invalid_Phone">please enter valid phone number</string>
+    <string name="invalid_phone">please enter valid phone number</string>
+    <string name="invalid_license">please enter valid license</string>
+    <string name="invalid_email">please enter valid email</string>
 </resources>

@@ -41,6 +41,11 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
     implementation 'com.google.firebase:firebase-database:20.1.0'
     implementation 'com.google.firebase:firebase-storage:20.1.0'
+    implementation 'com.firebaseui:firebase-ui-database:8.0.2'
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'com.orhanobut:dialogplus:1.11@aar'
+    implementation 'com.basgeekball:awesome-validation:4.3'
     testImplementation 'junit:junit:4.13.2'
     // Import the BoM for the Firebase platform
     implementation platform('com.google.firebase:firebase-bom:31.0.1')
@@ -55,3 +60,6 @@ dependencies {
 
     implementation 'com.squareup.picasso:picasso:2.8'
 }
+
+apply plugin:'com.google.gms.google-services'
+apply plugin: 'com.android.application'
