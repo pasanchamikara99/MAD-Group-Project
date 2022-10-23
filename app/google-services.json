@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "764198158432",
+    "firebase_url": "https://happymealfoodapplication-default-rtdb.firebaseio.com",
     "project_id": "happymealfoodapplication",
     "storage_bucket": "happymealfoodapplication.appspot.com"
   },
