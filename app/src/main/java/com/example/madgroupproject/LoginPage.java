@@ -28,6 +28,30 @@ public class LoginPage extends AppCompatActivity {
 
     DatabaseReference dbSearch;
 
+    protected void onStart(){
+        super.onStart();
+
+        sessionManagement session = new sessionManagement(LoginPage.this);
+
+        String isloggedIn = session.getSession();
+
+
+        if(!isloggedIn.equals("null")){
+
+            if(isloggedIn.equals("admin")){
+                startActivity(new Intent(LoginPage.this,AdminPage.class));
+                finish();
+            }else{
+                startActivity(new Intent(LoginPage.this,MenuPage.class));
+                finish();
+            }
+
+        }else{
+
+        }
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,63 +95,85 @@ public class LoginPage extends AppCompatActivity {
         //set progress bar visible
         loginprogress.setVisibility(View.VISIBLE);
 
-        //search user entered user name in the database
-        dbSearch = FirebaseDatabase.getInstance().getReference().child("Users").child(username);
-        dbSearch.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
+        if(username.isEmpty()){
+            loginprogress.setVisibility(View.GONE);
+            userName.setError("User name is Required !!!! ");
+            userName.requestFocus();
+            return;
+        }
+        else if(pass.isEmpty()){
+            loginprogress.setVisibility(View.GONE);
+            password.setError("Password is Required !!!! ");
+            password.requestFocus();
+            return;
+        }
+        else {
 
-                //if user name not avaliable in database
-                if (!snapshot.hasChildren()) {
-                    userName.setError("Invalid User Name ");
-                    loginprogress.setVisibility(View.GONE);
-                    userName.requestFocus();
+            //search user entered user name in the database
+            dbSearch = FirebaseDatabase.getInstance().getReference().child("Users").child(username);
+            dbSearch.addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                    //if user name not avaliable in database
+                    if (!snapshot.hasChildren()) {
+                        userName.setError("Invalid User Name ");
+                        loginprogress.setVisibility(View.GONE);
+                        userName.requestFocus();
+                    } else {
+
+                        //get database values to strings
+                        String newPass = snapshot.child("password").getValue().toString();
+                        String newUserName = snapshot.child("username").getValue().toString();
+
+
+                        //if user entered as admin
+                        if (username.equals("admin") && pass.equals(newPass)) {
+                            loginprogress.setVisibility(View.GONE);
+
+                            //redireted to admin page
+                            startActivity(new Intent(LoginPage.this, AdminPage.class));
+                            finish();
+                        }
+
+                        //check user entered values are matching
+                        else if (username.equals(newUserName) && pass.equals(newPass)) {
+
+                            loginprogress.setVisibility(View.GONE);
+
+                            User user = new User(username);
+
+                            sessionManagement session = new sessionManagement(LoginPage.this);
+                            session.saveSession(user);
+
+
+                            //redireted to menu page
+                            startActivity(new Intent(LoginPage.this, MenuPage.class));
+                            finish();
+                        }
+
+                        //user name or password not match
+                        else {
+
+                            loginprogress.setVisibility(View.GONE);
+
+                            //view error messages
+                            userName.setError("Invalid User Name or Password !!!! ");
+                            userName.requestFocus();
+
+                            password.setError("Invalid User Name or Password !!!! ");
+                            password.requestFocus();
+                        }
+                    }
                 }
-                else {
-
-                    //get database values to strings
-                     String newPass = snapshot.child("password").getValue().toString();
-                     String newUserName = snapshot.child("username").getValue().toString();
 
 
-                     //if user entered as admin
-                     if (username.equals("admin") && pass.equals(newPass)){
-                         loginprogress.setVisibility(View.GONE);
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
 
-                         //redireted to admin page
-                         startActivity(new Intent(LoginPage.this,AdminPage.class));
-                         finish();
-                     }
-
-                     //check user entered values are matching
-                     else if(username.equals(newUserName) && pass.equals(newPass)){
-
-                         loginprogress.setVisibility(View.GONE);
-
-                         //redireted to menu page
-                         startActivity(new Intent(LoginPage.this,MenuPage.class));
-                         finish();
-                     }
-
-                     //user name or password not match
-                     else{
-
-                         loginprogress.setVisibility(View.GONE);
-
-                         //view error messages
-                         userName.setError("Invalid User Name or Password !!!! ");
-                         userName.requestFocus();
-
-                         password.setError("Invalid User Name or Password !!!! ");
-                         password.requestFocus();
-                     }
                 }
-            }
+            });
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
+        }
     }
 }
