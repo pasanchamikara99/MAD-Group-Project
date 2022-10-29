@@ -40,6 +40,10 @@ public class User {
 
     }
 
+    public User(String username){
+        this.username = username;
+    }
+
     public User(String username, String email, String phoneNo, String password) {
         this.username = username;
         this.email = email;
