@@ -15,12 +15,25 @@
         <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/activity_order_page.xml" value="0.176" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MADGroupProject/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/drawable/add_new_person.xml" value="0.1925" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1275" />
         <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/drawable/rounded.xml" value="0.148" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/drawable/search_icon.xml" value="0.2485" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/drawable/toolbar_header.xml" value="0.1605" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/activity_add_category_page.xml" value="0.25" />
         <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/activity_add_delivery_person.xml" value="0.25" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/activity_admin_page.xml" value="0.264" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/activity_category_page.xml" value="0.25" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/activity_delete_category.xml" value="0.25" />
         <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/activity_delivery_person1.xml" value="0.21621621621621623" />
         <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/deliverypersons_list.xml" value="0.25" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/activity_menu_page.xml" value="0.225" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/activity_order_page.xml" value="0.25" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/activity_update_category_item.xml" value="0.25" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/deliverypersons_list.xml" value="0.2" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/items.xml" value="0.25" />
         <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/layout/update_delivery_person.xml" value="0.24363636363636362" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/menu/search_person.xml" value="0.25" />
+        <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.245" />
       </map>
     </option>
   </component>

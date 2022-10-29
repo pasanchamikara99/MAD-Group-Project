@@ -6,7 +6,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.SearchView;
 
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -57,4 +60,44 @@ public class DeliveryPersonActivity1 extends AppCompatActivity {
         super.onStop();
         mainAdapter.stopListening();
     }
+
+//    //search
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//
+//        getMenuInflater().inflate(R.menu.search_person,menu);
+//
+//        MenuItem item = menu.findItem(R.id.searchPerson);
+//        SearchView searchView = (SearchView) item.getActionView();
+//
+//        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+//            @Override
+//            public boolean onQueryTextSubmit(String query) {
+//
+//                textSearch(query);
+//                return false;
+//            }
+//
+//            @Override
+//            public boolean onQueryTextChange(String query) {
+//                textSearch(query);
+//                return false;
+//            }
+//        });
+//        return super.onCreateOptionsMenu(menu);
+//    }
+//
+//    //search delivery person by name
+//
+//    private void textSearch(String str)
+//    {
+//        FirebaseRecyclerOptions<DeliveryPersonModel> options =
+//                new FirebaseRecyclerOptions.Builder<DeliveryPersonModel>()
+//                        .setQuery(FirebaseDatabase.getInstance().getReference().child("DeliveryPersons").orderByChild("name").startAt(str).endAt(str+"-"), DeliveryPersonModel.class)
+//                        .build();
+//
+//        mainAdapter = new DeliveryPersonMainAdapter(options);
+//        mainAdapter.startListening();
+//        recyclerView.setAdapter(mainAdapter);
+//    }
 }

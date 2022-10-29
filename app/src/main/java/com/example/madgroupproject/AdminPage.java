@@ -7,10 +7,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class AdminPage extends AppCompatActivity {
 
     Button btnCategory;
+    ImageButton imgButton1,imgButton2;
 
 
     @Override
@@ -23,21 +25,37 @@ public class AdminPage extends AppCompatActivity {
         actionBar.hide();
 
 
-        btnCategory = findViewById(R.id.btnCategory);
+
+        imgButton1 =findViewById(R.id.imgBtnDelivery);
+        imgButton2 =findViewById(R.id.imgBtnCategory);
 
 
-        btnCategory.setOnClickListener(new View.OnClickListener() {
+//        btnCategory.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                category();
+//            }
+//        });
+
+        imgButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                category();
+                Intent intent = new Intent(AdminPage.this, DeliveryPersonActivity1.class);
+                startActivity(intent);
+            }
+        });
+
+        imgButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AdminPage.this, CategoryPage.class);
+                startActivity(intent);
             }
         });
     }
 
 
-    private void category(){
-
-        startActivity(new Intent(AdminPage.this,CategoryPage.class));
-
-    }
+//    private void category(){
+//        startActivity(new Intent(AdminPage.this,CategoryPage.class));
+//    }
 }
