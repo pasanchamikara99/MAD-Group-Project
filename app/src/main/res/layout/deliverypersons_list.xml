@@ -10,14 +10,14 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="345dp"
+        android:layout_height="400dp"
         android:padding="40dp">
 
         <TextView
             android:id="@+id/textViewDname"
             android:layout_width="200dp"
             android:layout_height="36dp"
-            android:layout_marginTop="20dp"
+
             android:orientation="vertical"
             android:text="Name"
             android:textColor="@color/black"
@@ -25,10 +25,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintHorizontal_bias="0.921"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.076" />
+            app:layout_constraintVertical_bias="0.01" />
 
         <TextView
             android:id="@+id/textViewDphone"
@@ -40,10 +40,10 @@
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintHorizontal_bias="0.921"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.303" />
+            app:layout_constraintVertical_bias="0.163" />
 
         <TextView
             android:id="@+id/textViewDlicense"
@@ -55,10 +55,10 @@
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintHorizontal_bias="0.921"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.437" />
+            app:layout_constraintVertical_bias="0.298" />
 
         <TextView
             android:id="@+id/textViewDemail"
@@ -70,10 +70,10 @@
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintHorizontal_bias="0.921"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.555" />
+            app:layout_constraintVertical_bias="0.429" />
 
         <Button
             android:id="@+id/btnPersonedit"
@@ -85,7 +85,7 @@
             app:layout_constraintHorizontal_bias="0.142"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.771" />
+            app:layout_constraintVertical_bias="0.634" />
 
         <Button
             android:id="@+id/btnPersonDlt"
@@ -94,10 +94,22 @@
             android:text="Delete"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.943"
+            app:layout_constraintHorizontal_bias="0.896"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.771" />
+            app:layout_constraintVertical_bias="0.634" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="105dp"
+            android:layout_height="91dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/profile" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

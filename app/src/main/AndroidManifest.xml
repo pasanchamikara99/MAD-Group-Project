@@ -8,7 +8,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="Happy Meals"
+        android:label="Delivery Persons"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADGroupProject"
@@ -43,10 +43,15 @@
         </activity>
         <activity
             android:name=".AdminPage"
-            android:exported="false">
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".MenuPage"
@@ -83,12 +88,8 @@
             android:exported="true" />
         <activity
             android:name=".DeliveryPersonActivity1"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"

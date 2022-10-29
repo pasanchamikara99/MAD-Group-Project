@@ -26,6 +26,8 @@ public class AddDeliveryPersonActivity extends AppCompatActivity {
     EditText name,contactNo,licenseNo,email;
     Button btnPersonAdd,btnBack;
 
+
+
     AwesomeValidation awesomeValidation;
 
     @Override
@@ -47,7 +49,7 @@ public class AddDeliveryPersonActivity extends AppCompatActivity {
                 RegexTemplate.NOT_EMPTY,R.string.invalid_name);
 
         awesomeValidation.addValidation(this,R.id.txtDpPhone,
-                RegexTemplate.NOT_EMPTY,R.string.invalid_Phone);
+                Patterns.PHONE,R.string.invalid_Phone);
 
         awesomeValidation.addValidation(this,R.id.txtDpLisence,
                 RegexTemplate.NOT_EMPTY,R.string.invalid_license);
