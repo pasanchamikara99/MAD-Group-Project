@@ -18,15 +18,15 @@
         android:padding="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047">
+        app:layout_constraintVertical_bias="0.05">
 
 
         <LinearLayout
-            android:layout_width="411dp"
-            android:layout_height="41dp"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
             android:orientation="horizontal">
 
             <TextView
@@ -42,7 +42,7 @@
 
             <TextView
                 android:id="@+id/svdshowName2"
-                android:layout_width="152dp"
+                android:layout_width="217dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
@@ -52,8 +52,8 @@
 
 
         <LinearLayout
-            android:layout_width="411dp"
-            android:layout_height="41dp"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
             android:orientation="horizontal">
 
             <TextView
@@ -69,8 +69,8 @@
 
             <TextView
                 android:id="@+id/svdshowAddress2"
-                android:layout_width="152dp"
-                android:layout_height="match_parent"
+                android:layout_width="215dp"
+                android:layout_height="59dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:text="TextView"
@@ -79,8 +79,8 @@
 
 
         <LinearLayout
-            android:layout_width="411dp"
-            android:layout_height="41dp"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
             android:orientation="horizontal">
 
             <TextView
@@ -96,8 +96,8 @@
 
             <TextView
                 android:id="@+id/svdshowMobile2"
-                android:layout_width="152dp"
-                android:layout_height="match_parent"
+                android:layout_width="177dp"
+                android:layout_height="71dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:text="TextView"
@@ -105,8 +105,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="411dp"
-            android:layout_height="41dp"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
             android:orientation="horizontal">
 
             <TextView
@@ -122,8 +122,8 @@
 
             <TextView
                 android:id="@+id/svdshowcrad2"
-                android:layout_width="152dp"
-                android:layout_height="match_parent"
+                android:layout_width="215dp"
+                android:layout_height="71dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:text="TextView"
@@ -131,8 +131,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="411dp"
-            android:layout_height="41dp"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
             android:orientation="horizontal">
 
             <TextView
@@ -148,7 +148,7 @@
 
             <TextView
                 android:id="@+id/svdshowdid2"
-                android:layout_width="152dp"
+                android:layout_width="221dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
@@ -157,8 +157,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="411dp"
-            android:layout_height="41dp"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
             android:orientation="horizontal">
 
             <TextView
@@ -174,7 +174,7 @@
 
             <TextView
                 android:id="@+id/svdshowstatus2"
-                android:layout_width="152dp"
+                android:layout_width="219dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
@@ -183,8 +183,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="411dp"
-            android:layout_height="41dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
             android:orientation="horizontal">
 
             <TextView
@@ -200,7 +200,7 @@
 
             <TextView
                 android:id="@+id/svdshowtype2"
-                android:layout_width="152dp"
+                android:layout_width="171dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
@@ -221,7 +221,7 @@
                 android:text="Order Details :"
                 android:textColor="@color/black"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/svdshowdetails"
@@ -230,7 +230,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:text="TextView"
-                android:textSize="15dp"  />
+                android:textSize="15dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -255,7 +255,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:text="TextView"
-                android:textSize="25dp"  />
+                android:textSize="25dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -271,7 +271,7 @@
                 android:text="Date and Time :"
                 android:textColor="@color/black"
                 android:textSize="25dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/svdshowdatetime"
@@ -280,7 +280,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:text="TextView"
-                android:textSize="15dp"  />
+                android:textSize="15dp" />
         </LinearLayout>
 
         <LinearLayout
