@@ -6,7 +6,6 @@ public class Test {
         return email;
 
     }
-
     public boolean validName(String name){
         return !(name.isEmpty());
     }
