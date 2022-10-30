@@ -92,8 +92,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:paddingStart="16dp"
-            android:text="Name"
-            android:textColor="#0099ff" />
+            android:hint="Name"
+            android:textColorHint="#0099ff"/>
 
         <EditText
             android:id="@+id/svdtxtedit2"
@@ -106,8 +106,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:paddingStart="16dp"
-            android:text="Address"
-            android:textColor="#0099ff" />
+            android:hint="Address"
+            android:textColorHint="#0099ff" />
 
         <EditText
             android:id="@+id/editTextPhone2"
@@ -121,8 +121,8 @@
             android:ems="10"
             android:inputType="phone"
             android:paddingStart="16dp"
-            android:text="Phone Number"
-            android:textColor="#0099ff" />
+            android:hint="Phone Number"
+            android:textColorHint="#0099ff"  />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -165,8 +165,8 @@
             android:ems="10"
             android:inputType="number"
             android:paddingStart="16dp"
-            android:text="Card Number"
-            android:textColor="#0099ff" />
+            android:hint="Card Number"
+            android:textColorHint="#0099ff"  />
 
 
         <Button

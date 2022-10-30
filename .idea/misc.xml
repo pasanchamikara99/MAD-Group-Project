@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MAD-Group-Project/app/src/main/res/drawable/edittxt_white.xml" value="0.227" />
+        <entry key="..\:/MAD-Group-Project/app/src/main/res/drawable/order_bd.xml" value="0.2695" />
+        <entry key="..\:/MAD-Group-Project/app/src/main/res/drawable/roundedsvd.xml" value="0.2595" />
+        <entry key="..\:/MAD-Group-Project/app/src/main/res/drawable/show_order_bg.xml" value="0.2705" />
         <entry key="..\:/MAD-Group-Project/app/src/main/res/drawable/svd_ui_design.xml" value="0.227" />
         <entry key="..\:/MAD-Group-Project/app/src/main/res/drawable/text_view_design.xml" value="0.227" />
         <entry key="..\:/MAD-Group-Project/app/src/main/res/drawable/txt_white_bg.xml" value="0.227" />
@@ -12,7 +15,12 @@
         <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/activity_cart_thank.xml" value="0.265625" />
         <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/activity_main.xml" value="0.20572916666666666" />
         <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/activity_menu_page.xml" value="0.265625" />
-        <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/activity_order_page.xml" value="0.176" />
+        <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/activity_order_admin.xml" value="0.24456521739130435" />
+        <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/activity_order_main_page.xml" value="0.265625" />
+        <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/activity_order_page.xml" value="0.2" />
+        <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/items.xml" value="0.1" />
+        <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/show_order.xml" value="0.24456521739130435" />
+        <entry key="..\:/MAD-Group-Project/app/src/main/res/layout/update_pop_up.xml" value="0.24456521739130435" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MADGroupProject/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/drawable/add_new_person.xml" value="0.1925" />
         <entry key="..\:/Users/achini/AndroidStudioProjects/MAD-Group-Project/app/src/main/res/drawable/rounded.xml" value="0.148" />
