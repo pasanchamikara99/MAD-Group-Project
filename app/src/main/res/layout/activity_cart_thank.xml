@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4E4E4E"
+    android:background="#B1B1B1"
     tools:context=".cart_thank_activity">
 
     <TextView
