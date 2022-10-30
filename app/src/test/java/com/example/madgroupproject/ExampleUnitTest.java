@@ -45,5 +45,4 @@ public class ExampleUnitTest {
         boolean expected = false;
         assertEquals(false, result);
     }
-
 }
