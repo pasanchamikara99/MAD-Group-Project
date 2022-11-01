@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "764198158432",
+    "firebase_url": "https://happymealfoodapplication-default-rtdb.firebaseio.com",
+    "project_id": "happymealfoodapplication",
+    "storage_bucket": "happymealfoodapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764198158432:android:f2fb26aa91911261e58305",
+        "android_client_info": {
+          "package_name": "com.example.madgroupproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764198158432-iuko56paa1v3s0mdig1unhsh94vqjpha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLSLD_f9rdZStjcfgOTD0YsN9AphImMeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764198158432-iuko56paa1v3s0mdig1unhsh94vqjpha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

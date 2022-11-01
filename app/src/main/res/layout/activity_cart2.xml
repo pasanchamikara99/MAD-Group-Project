@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4E4E4E"
+    tools:context=".CartActivity2">
+
+    <TextView
+        android:id="@+id/svdtxt8"
+        android:layout_width="415dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="183dp"
+        android:background="#0099ff"
+        android:text="Chekout"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099">
+
+        <TextView
+            android:id="@+id/svdtxt10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/svdtxt11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Rs 0"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/svdlinear5"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txt_white_bg"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824">
+
+        <TextView
+            android:id="@+id/svdtxt9"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/text_view_design"
+            android:text="Your Information"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/svdtxtedit1"
+            android:layout_width="317dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edittxt_white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="16dp"
+            android:text="Name"
+            android:textColor="#0099ff" />
+
+        <EditText
+            android:id="@+id/svdtxtedit2"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edittxt_white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="16dp"
+            android:text="Address"
+            android:textColor="#0099ff" />
+
+        <EditText
+            android:id="@+id/editTextPhone2"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittxt_white"
+            android:ems="10"
+            android:inputType="phone"
+            android:paddingStart="16dp"
+            android:text="Phone Number"
+            android:textColor="#0099ff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/svdcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:text="Card"
+                android:textStyle="bold"/>
+
+            <RadioButton
+                android:id="@+id/svdelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:text="Pay On Delivery"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittxt_white"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingStart="16dp"
+            android:text="Card Number"
+            android:textColor="#0099ff" />
+
+
+        <Button
+            android:id="@+id/svdbtn3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
+            android:backgroundTint="#00FF22"
+            android:text="Checkout"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/svdbtn4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#00FF22"
+            android:text="back"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
