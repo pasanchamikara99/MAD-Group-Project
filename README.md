@@ -1,5 +1,10 @@
+![image](https://user-images.githubusercontent.com/75413812/209738684-47523920-8777-4e32-b8ae-d448a9e671ae.png)
+
 # MAD-Group-Project
 SLIIT 2year 2nd Semester MAD Module Group Project
+
+
+## Description
 
 “Happymeal Food Ordering Mobile Application” is an android app that provides a single 
 platform for customers’ orders and deliveries. It is a real-world mobile application that 
