@@ -32,6 +32,17 @@ the use of this app.
 secure, reliable, and well updated fast service for the customers
 
 
+## individual contribution 
+S.V.Dewasurendra - User Side Operations
+H.G.Sachin Lakshan - Manage Food Items
+K.L.P.Chamikara - login,register and manage menu items
+K.P.G.A.Palliyaguru - Manage Delivery Persons
+
+
+
+    
+
+
 
 https://user-images.githubusercontent.com/75413812/209739047-04d5584b-6c9f-4f06-bf0e-e3ef87459945.mp4
 
